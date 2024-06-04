@@ -32,7 +32,7 @@ function CrearElemento(donde, que, array) {
 			<p class="mb-0 w-100 text-start">${que}</p>
 		</div>
 		<div class="col-2 d-flex align-items-center justify-content-center">
-			<button class="text-center" id="btnDelete">&#x1F5F9</button>
+			<button class="text-center" id="btnDelete">✓</button>
 		</div>
 	</div>
 	`;
