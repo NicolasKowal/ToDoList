@@ -71,7 +71,7 @@ botonAgregar.addEventListener("click", () => {
 		denyButtonText: `Descartar`,
 		cancelButtonText: "Cancelar",
 	}).then((result) => {
-		if (result.isConfirmed) {
+		if (result.isConfirmed && result.value!="") {
 			Swal.fire("Agregado con exito!", "", "success");
 			listaDeTareas.push(result.value);
 			GuardarStorage(listaDeTareas, "ListaARealizar");
